@@ -1,77 +1,89 @@
-
 .file__container {
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin: 3% ;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  h2 {
-    color: #333;
-  }
-  
-  .nofile{
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin: 3% ;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+  background-color: #91ffab;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 3%;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
-  p {
-    margin: 8px 0;
-  }
-  
-  .delete__button {
-    background-color: #e74c3c;
-    color: #fff;
-    border: none;
-    padding: 8px 12px;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .delete__button:hover {
-    background-color: #c0392b;
-  }
+h2 {
+  color: #333;
+}
 
-  .form__data {
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin: 3%;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+.nofile {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 3%;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
-  
-  .form__data input[type="file"] {
-    flex: 1; 
-    margin-right: 10px; 
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-  }
-  
-  .form__data button {
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    padding: 8px 12px;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .form__data button:hover {
-    background-color: #2980b9;
-  }
-  .userfiles {
-    
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    margin: 20px 5%;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+p {
+  margin: 8px 0;
+}
+
+.delete__button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete__button:hover {
+  background-color: #c0392b;
+}
+
+.form__data {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 3%;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form__data input[type="file"] {
+  flex: 1;
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form__data button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form__data button:hover {
+  background-color: #2980b9;
+}
+.userfiles {
+  border: 2px solid #0ffa56;
+  border-radius: 8px;
+  margin: 20px 5%;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+input[type="file"]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: #084cdf;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background: #0d45a5;
+}
